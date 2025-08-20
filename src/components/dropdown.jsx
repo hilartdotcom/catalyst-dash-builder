@@ -7,7 +7,7 @@ import { Button } from './button'
 import { Link } from './link'
 
 export function Dropdown(props) {
-  return <Headless.Menu {...props} />
+  return <Headless.Menu as="div" {...props} />
 }
 
 export function DropdownButton({ as = Button, ...props }) {
