@@ -57,8 +57,11 @@ This project is built with:
 - Vite
 - TypeScript
 - React
-- shadcn-ui
-- Tailwind CSS
+- Catalyst UI (Tailwind v4, Headless UI, Framer Motion, clsx)
+- Tailwind CSS v4
+
+## Homepage Demo
+The dashboard matches the design from the [Catalyst live demo](https://catalyst-demo.tailwindui.com/).
 
 ## How can I deploy this project?
 
