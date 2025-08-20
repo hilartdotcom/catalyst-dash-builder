@@ -1,11 +1,11 @@
 import React from 'react'
-import { SidebarLayout } from '@/components/sidebar-layout'
+import { SidebarLayout } from '@/components/sidebar-layout.jsx'
 import { 
   Navbar, 
   NavbarItem, 
   NavbarSection, 
   NavbarSpacer 
-} from '@/components/navbar'
+} from '@/components/navbar.jsx'
 import { 
   Sidebar, 
   SidebarBody,
@@ -14,15 +14,15 @@ import {
   SidebarLabel, 
   SidebarSection,
   SidebarHeading
-} from '@/components/sidebar'
-import { Avatar } from '@/components/avatar'
+} from '@/components/sidebar.jsx'
+import { Avatar } from '@/components/avatar.jsx'
 import { 
   Dropdown, 
   DropdownButton, 
   DropdownItem, 
   DropdownMenu 
-} from '@/components/dropdown'
-import { Heading } from '@/components/heading'
+} from '@/components/dropdown.jsx'
+import { Heading } from '@/components/heading.jsx'
 import { 
   Table, 
   TableBody, 
@@ -30,10 +30,10 @@ import {
   TableHead, 
   TableHeader, 
   TableRow 
-} from '@/components/table'
-import { Badge } from '@/components/badge'
-import { Button } from '@/components/button'
-import { ThemeToggle } from '@/components/theme-toggle'
+} from '@/components/table.jsx'
+import { Badge } from '@/components/badge.jsx'
+import { Button } from '@/components/button.jsx'
+import { ThemeToggle } from '@/components/theme-toggle.jsx'
 import { 
   HomeIcon,
   CalendarIcon,
