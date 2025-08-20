@@ -1,10 +1,11 @@
 import clsx from 'clsx'
+import { Link } from './link'
 
 export function Text({ className, ...props }) {
   return (
     <p
-      {...props}
       data-slot="text"
+      {...props}
       className={clsx(className, 'text-base/6 text-zinc-500 sm:text-sm/6 dark:text-zinc-400')}
     />
   )
@@ -12,7 +13,7 @@ export function Text({ className, ...props }) {
 
 export function TextLink({ className, ...props }) {
   return (
-    <a
+    <Link
       {...props}
       className={clsx(
         className,
@@ -32,7 +33,7 @@ export function Code({ className, ...props }) {
       {...props}
       className={clsx(
         className,
-        'rounded border border-zinc-950/10 bg-zinc-950/[2.5%] px-0.5 text-sm font-medium text-zinc-950 sm:text-[0.8125rem] dark:border-white/20 dark:bg-white/5 dark:text-white'
+        'rounded-sm border border-zinc-950/10 bg-zinc-950/2.5 px-0.5 text-sm font-medium text-zinc-950 sm:text-[0.8125rem] dark:border-white/20 dark:bg-white/5 dark:text-white'
       )}
     />
   )
